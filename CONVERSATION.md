@@ -204,3 +204,24 @@ print(cost_map["beta"])
 ```
 
 What function do you call on a dictionary to retrieve a value using its key?
+
+---
+## 2026-10-08 10:21, in .
+
+**Me:** how to modify a list in ascending order
+
+**Tutor:**
+
+Sorting a list in ascending order is done with the **list.sort()** method.
+
+```python
+# TODO: replace the list below with your own data
+numbers = [3, 1, 4, 1, 5, 9, 2]
+
+# TODO: call the right method on the list to sort it in place
+numbers.____( )
+
+print(numbers)
+```
+
+Which method sorts a list in ascending order?

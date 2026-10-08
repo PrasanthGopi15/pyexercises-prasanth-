@@ -25,10 +25,28 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four orders, and which ones modify the original:
+# 1. In:a list is being guven as a input 
+# 2. Process:we show the different orders like ascending, descending, random and reverse
+# 3. Out:we print the different forms the list can be modified
+# 4. My four orders, and which ones modify the original:none of those modifies the original list 
 
 
 # Your code below
+
+import random
+
+list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
+
+print("Original list:", list_of_numbers)
+
+print("1. Ascending:", sorted(list_of_numbers))
+
+print("2. Descending:", sorted(list_of_numbers, reverse=True))
+
+print("3. Reverse:", list_of_numbers[::-1])
+
+random_order = list_of_numbers.copy()
+random.shuffle(random_order)
+print("4. Random order:", random_order)
+
+print("Original list:", list_of_numbers)
