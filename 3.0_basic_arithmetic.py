@@ -24,10 +24,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In:2 integers
+# 2. Process:addition, subtraction, multiplication and division
+# 3. Out:sum, diff, product and division of those two nums are displayed
+# 4. What happens when the second number is zero, and why:add, sub, multiply acts as usal while division says "he number 2 that you have entered is zero"
 
 
 # Your code below
