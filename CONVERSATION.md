@@ -117,3 +117,41 @@ show_strings("hello", "world")
 ```
 
 What function prints text to the screen?
+
+---
+## 2026-10-08 07:57, in .
+
+**Me:** how to do arithmetic sums
+
+**Tutor:**
+
+Arithmetic sums are done with the built-in `sum()` function.
+
+```python
+# Sum a list of numbers
+numbers = [2, 4, 6, 8]
+total = sum(numbers)  # TODO: what does sum() return when the list is empty?
+```
+
+What is the only argument that `sum()` accepts?
+
+---
+## 2026-10-08 07:57, in .
+
+**Me:** addition of two numbers
+
+**Tutor:**
+
+Addition of two numbers in Python.
+
+```python
+def add_numbers(a, b):
+    # TODO: return the sum of a and b
+    pass
+
+# Example usage (replace with your own numbers)
+result = add_numbers(5, 3)
+print(result)  # Expected output: 8
+```
+
+What is the name of the operator used to add two numbers in Python?
