@@ -28,10 +28,28 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In:i value is given in
+# 2. Process:while loop continues until the i will become 0
+# 3. Out:the number of attempts that takes to become i to zero
 # 4. My stop condition, my attempt limit, my summary:
 
 
 # Your code below
+i = 0
+while i < 10:
+    print("This is attempt number:", i + 1)
+    i = i + 1
+
+
+print("This is the end of the loop. The maximum number of attempts has been reached.")
+while True:
+   user_input = input("Do you want to continue? (yes/no): ").strip().lower()
+    
+   if user_input == "yes":
+        print("You chose to continue.")
+        break
+   elif user_input == "no":
+        print("You chose to stop.")
+        break
+   else:
+        print("Invalid input. Please enter 'yes' or 'no'.")

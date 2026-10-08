@@ -225,3 +225,30 @@ print(numbers)
 ```
 
 Which method sorts a list in ascending order?
+
+---
+## 2026-10-08 17:29, in .
+
+**Me:** how to display position in the list
+
+**Tutor:**
+
+Displaying the position (index) of an item in a list is called **enumerating**.
+
+```python
+# TODO: replace 'my_list' with your list
+my_list = ["apple", "banana", "cherry"]
+
+# TODO: replace 'target' with the item you want to find
+target = "banana"
+
+# Enumerate returns (index, value) pairs
+for index, value in enumerate(my_list):
+    if value == target:
+        print(f"Position of '{target}' is {index}")
+        break
+else:
+    print(f"'{target}' not found in the list")
+```
+
+What does the `enumerate()` function return for each iteration?
