@@ -23,10 +23,39 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+# 1. In:create a dictionry
+# 2. Process:display the dictionary add an field in the dictionery and remove one and display
+# 3. Out:each process is displayed as print statement given
+# 4. My object, my five fields, and why those:to describe about the object we use field
 
 
 # Your code below
+name = "Prasanth"
+age = 21
+city = "Salem"
+studies ="Engineering"
+lang = "Tamil"
+
+
+
+person = { "name":"Prasanth",
+           "age": 21, 
+           "city": "Salem",
+           "studies": "Engineering",
+           "lang": "Tamil"}
+
+# printing the dictionary
+print("The dictionary is :", person)
+
+# adding a value inside the dictionary
+person["occupation"] = "Student"
+
+# the dictionary after adding the value or item
+print("The dictionary after adding the occupation:", person)
+
+# removing the city from the dictionary
+city = person.pop("city")
+
+print("The dictionary after removing the city:", person)
+print("The city removed is", city)
+

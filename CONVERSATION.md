@@ -179,3 +179,28 @@ numbers.sort()
 ```
 
 Which built-in method sorts a list in place?
+
+---
+## 2026-10-08 09:20, in .
+
+**Me:** how to use a dictionary
+
+**Tutor:**
+
+A dictionary stores pairs of keys and values so you can look up a value by its key.
+
+```python
+# TODO: replace the fake data with your real data
+data = [
+    {"name": "alpha", "ctr": 0.03, "cost": 120},
+    {"name": "beta",  "ctr": 0.05, "cost": 200},
+]
+
+# TODO: create a dictionary that maps each campaign name to its cost
+cost_map = {}
+
+# TODO: print the cost of campaign "beta"
+print(cost_map["beta"])
+```
+
+What function do you call on a dictionary to retrieve a value using its key?
