@@ -155,3 +155,27 @@ print(result)  # Expected output: 8
 ```
 
 What is the name of the operator used to add two numbers in Python?
+
+---
+## 2026-10-08 08:51, in .
+
+**Me:** how to create a list and sort it
+
+**Tutor:**
+
+Creating and sorting a list is two steps.
+
+1. Create the list with square brackets.
+2. Call the list’s sort method.
+
+```python
+# Create a list of numbers
+numbers = [3, 1, 4]
+
+# Sort it in place
+numbers.sort()
+
+# TODO: what does the list look like after sorting?
+```
+
+Which built-in method sorts a list in place?
