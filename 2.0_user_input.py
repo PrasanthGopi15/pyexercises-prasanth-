@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In:two data strings
+# 2. Process:user gives two data strings and both are being added together
+# 3. Out:both strings are displayed in a single sentenced output
+# 4. My two fields, and what I would do with them:add both the field of strings together in a single sentenced output
 
 
 # Your code below
